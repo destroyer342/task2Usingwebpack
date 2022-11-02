@@ -6,11 +6,42 @@ class ClassMovies extends React.Component {
     super(props);
     this.state = {
       movies: [
-        { title: "the Lord of the Rings", year: "2003" },
-        { title: "Spiderman", year: "2021" },
-        { title: "Ghostbuster", year: "1984" },
-        { title: "Avengers: Infinity War", year: "2018" },
-        { title: "The Shining", year: "1980" }
+        // ...
+        {
+          "title": "Avengers: Age of Ultron",
+          "year": 2015,
+          "cast": [
+            "Robert Downey, Jr.",
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Mark Ruffalo"
+          ],
+          "genres": [
+            "Action"
+          ]
+        },
+        // ...
+        {
+          "title": "The Avengers",
+          "year": 2012,
+          "cast": [
+            "Robert Downey, Jr.",
+            "Chris Evans",
+            "Mark Ruffalo",
+            "Chris Hemsworth",
+            "Scarlett Johansson",
+            "Jeremy Renner",
+            "Tom Hiddleston",
+            "Clark Gregg",
+            "Cobie Smulders",
+            "Stellan Skarsgård",
+            "Samuel L. Jackson"
+          ],
+          "genres": [
+            "Superhero"
+          ]
+        },
+        // ...
       ]
     };
   }

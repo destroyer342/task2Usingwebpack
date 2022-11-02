@@ -10,9 +10,9 @@ class MoviesComponent extends React.Component {
             <th>Name</th>
             <th>Year</th>
           </tr>
-          {this.props.movies.map((movie, index) => {
+          {this.props.movies.map((movie, i) => {
             return (
-              <tr key={index}>
+              <tr key={i}>
                 <td>{movie.title}</td>
                 <td>{movie.year}</td>
               </tr>
