@@ -9,7 +9,6 @@ const App = () => {
       <hr />
       <Groceries />
       <hr />
-      {/* 3 class based prop */}
       <ClassMovies />
     </div>
   )
