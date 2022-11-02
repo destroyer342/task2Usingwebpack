@@ -4,7 +4,7 @@ class MoviesComponent extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>3 Movies</h1>
+        <h1>3 Watchlist</h1>
         <table>
           <tr>
             <th>Name</th>
